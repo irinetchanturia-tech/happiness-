@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ირინა & გიორგი - 13.09.2026</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap');
+
+        body {
+            margin: 0; padding: 0;
+            background-color: #fdfaf6;
+            font-family: 'Playfair Display', serif;
+            display: flex; justify-content: center; align-items: center;
+            min-height: 100vh; color: #4a4238;
+        }
+
+        .invitation-container {
+            background: #fff; max-width: 450px; width: 85%;
+            padding: 50px 20px; margin: 20px;
+            border-radius: 5px; position: relative;
+            box-shadow: 0 15px 40px rgba(184, 146, 106, 0.15);
+            text-align: center; border: 1px solid #e8dec9;
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        .photo-placeholder {
+            width: 200px; height: 200px;
+            margin: 0 auto 30px;
+            border: 2px solid #d4af37;
+            border-radius: 50%;
+            background-color: #f9f4ec;
+            display: flex; align-items: center; justify-content: center;
+            color: #9c7b4f; font-style: italic;
+        }
+
+        .couple-names {
+            font-family: 'Great Vibes', cursive;
+            font-size: 3.5rem; color: #9c7b4f;
+            margin: 10px 0 25px; line-height: 1;
+        }
+
+        .date-text {
+            font-size: 1.5rem; font-weight: bold;
+            color: #4a4238; border-top: 1px solid #e8dec9;
+            border-bottom: 1px solid #e8dec9;
+            padding: 10px 0; margin: 20px auto; width: 80%;
+        }
+
+        .location-btn {
+            display: inline-block; margin-top: 20px;
+            padding: 12px 30px; background-color: #9c7b4f;
+            color: #fff; text-decoration: none;
+            text-transform: uppercase; font-size: 0.8rem;
+            letter-spacing: 2px; border-radius: 50px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invitation-container">
+        <div style="font-size: 0.8rem; letter-spacing: 4px; text-transform: uppercase; color: #8c7e6d;">სიყვარულით გეპატიჟებით</div>
+        
+        <div class="photo-placeholder">
+            <span style="font-size: 3rem;">🤍</span>
+        </div>
+
+        <div class="couple-names">ირინა & გიორგი</div>
+        
+        <div style="color: #d4af37; font-size: 1.2rem; margin-bottom: 20px;">❦</div>
+
+        <div style="line-height: 1.8;">
+            გვიხარია, რომ გეპატიჟებით ჩვენი ოჯახის შექმნის საზეიმო ცერემონიაზე
+            <div class="date-text">13 სექტემბერი, 2026</div>
+            <strong>მდებარეობა:</strong> ქალაქი ზუგდიდი<br>
+            რესტორანი <strong>"ბაგრატიონი"</strong><br>
+            დასაწყისი: 19:00 საათზე
+        </div>
+
+        <a href="https://maps.google.com" target="_blank" class="location-btn">ნახე ლოკაცია რუკაზე</a>
+    </div>
+
+</body>
+</html>
